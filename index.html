@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test example for EPAM">
+    <meta name="autor" content="Danil Konovalov">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>EPAM</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Users</h1>
+        </div>
+    </header>
+    <section id="main">
+        <div class="container">
+            <select id="select-css" class="sorting" value="Sort Alphabetically A to Z">
+                <option value="Sort Alphabetically A to Z" id="sortingUp">Sort Alphabetically A to Z</option>
+                <option value="Sort Alphabetically Z to A" id="sortingDown">Sort Alphabetically Z to A</option>
+            </select>
+            <ul class="users">
+            </ul>
+        </div>
+    </section>
+    <div class="modal">
+        <div class="avatar"></div>
+        <div class="profile"></div>
+        <input type="submit" id="close_modal" value="Close">
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
